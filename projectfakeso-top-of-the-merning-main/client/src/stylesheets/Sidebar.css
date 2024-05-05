@@ -1,0 +1,50 @@
+/* CSS for the scrollable container */
+.scrollBar-container {
+    height: calc(100vh - 300px);
+    overflow-y: scroll;
+}
+  
+.scrollBar-container2 {
+    max-height: 40%; /* Adjust the max-height as needed */
+    overflow-y: scroll;
+}
+
+.scrollBar-container3 {
+    max-height: 40%; /* Adjust the max-height as needed */
+    overflow-y: scroll;
+}
+  
+.side-title {
+    /* This length is shared by the empty div and the side bar */
+    width: 200px; /* Adjust the width as needed */
+}
+  
+
+/* Add CSS stylesheet */
+.sidebar {
+    width: 200px;
+    background-color: #ffffff;
+    padding-top: 20px;
+    height: 100%;
+}
+
+/* Style links in the sidebar */
+.sidebar p {
+    margin: 20px 0px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #0645AD;
+    display: block;
+    text-align: center;
+}
+  
+/* Change the color of links when hovered */
+.sidebar p:hover {
+    background-color: #D3D3D3;
+    cursor: pointer;
+}
+
+.sideBar-selected {
+    background-color: #D3D3D3;
+}

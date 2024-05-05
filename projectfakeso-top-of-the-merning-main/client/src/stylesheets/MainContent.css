@@ -1,0 +1,109 @@
+#main-content {
+  width: 100%;
+  border-left: black dotted 2px;
+  height: 100%;
+}
+
+.question-hr {
+  border-top: black dotted 2px;
+}
+
+.question,
+.question-container {
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.question {
+  padding-left: 20px;
+}
+
+.question-header {
+  display: inline-block;
+  padding: 20px;
+}
+
+.ask-question-btn {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 20px;
+  border: 2px solid black;
+}
+
+.question-asked-by {
+  color: red;
+}
+
+#question-num {
+  font-size: 15px;
+}
+
+.question-ans-by {
+  color: green;
+}
+
+.ans-question-btn {
+  margin: 15px 0 15px 15px;
+}
+
+.ans-container,
+.question-detail-container {
+  padding: 20px 0px;
+  font-size: 15px;
+}
+
+/* Define CSS rules for the "No Questions Found" paragraph using a class */
+.no-questions-found {
+  font-size: 24px;
+  /* Adjust the font size as needed */
+  font-weight: bold;
+  margin-left: 20px;
+  /* Adjust the leftward movement as needed */
+}
+
+/* Style for the tag box */
+.tag-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #f0f0f0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the tag name */
+.tag-name {
+  color: #0E86D4;
+  /* Tag keyword color */
+  font-weight: bold;
+}
+
+/* CSS for tag rows */
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  /* Adjust the margin as needed */
+}
+
+.tag-box {
+  width: calc(30% - 10px);
+  /* Adjust the width as needed */
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px dotted #000;
+  /* Dotted border */
+  padding: 10px;
+  /* Add padding to space out content */
+  text-align: center;
+}
+
+/* Style for the question count */
+.question-count {
+  color: black;
+  /* Number of questions color */
+  margin-top: 5px;
+  /* Adjust the margin as needed to separate from tag name */
+}

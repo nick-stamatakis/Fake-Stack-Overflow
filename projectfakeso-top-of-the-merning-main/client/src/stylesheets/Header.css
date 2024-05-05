@@ -1,0 +1,10 @@
+/* Add CSS stylesheet */
+.header {
+  background-color: lightgray;
+  border-bottom: black solid 1.5px;
+  font-size: 30px;
+  gap: 15%;
+  justify-content: center;
+  /* Use this to increase separation between the title and the sidebar. */
+  padding: 15px;
+}
